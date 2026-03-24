@@ -31,9 +31,7 @@ export function Works() {
               <span className="font-mono text-xs text-foreground/40 uppercase tracking-widest">
                 {work.category}
               </span>
-              <span className="font-mono text-xs text-foreground/30">
-                {work.year}
-              </span>
+
             </div>
             <div className="relative z-10">
               <div className="w-full h-px bg-foreground/10 mb-4 group-hover:bg-foreground/30 transition-colors duration-300" />
